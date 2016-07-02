@@ -4,19 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.luiferartgallery.MainActivity">
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/title"
+        android:src="@drawable/luiferartgallery"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title"
         android:textSize="34sp"
+        android:textColor="#FFC107"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:fontFamily="cursive"/>
-    <ImageView
+        android:textStyle="bold"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:contentDescription="@string/title"
-        android:src="@string/image_one"/>
+        android:text="@string/author"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFC107"
+        android:textStyle="bold"/>
 </RelativeLayout>
