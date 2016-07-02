@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Luifer Art Gallery</string>
+    <string name="image_one">"@drawable/luiferartgallery"</string>
+    <string name="title">Luifers art gallery</string>
 </resources>
